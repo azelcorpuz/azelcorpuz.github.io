@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Node JS"
+date:   2021-02-15 23:14:00 +0800
+categories: tools
+---
+## NodeJs and NPM installation
+1. Download the LTS Support for mac from node website - binary only
+2. Put it on the desired directory
+3. Add the following to the environment variable - if using ZSH, add it to `~/.zshenv`
+```
+export NODE_HOME=/Users/azelcorpuz/tools/node-v14.15.5-darwin-x64
+export PATH=$PATH:$NODE_HOME/bin/
+```
+4. do reload the environment variables, if using ZSH, run the following:
+```
+source ~/.zshenv
+```
+
+## Configure NPM
+1. Modify the following - this will create an ~/.npmrc (I do it as I like to know where are the files created by tool I am using - easy to clean):
+```
+npm config set cache $NODE_HOME/cache
+npm config set prefix $NODE_HOME/prefix
+```
+2. Add the following on  `~/.zshenv`
+```
+export PATH=$PATH:$NODE_HOME/prefix
+```
+
+## Some notes
+* NodeJS - to be able to run javascript outside a browser
+* NPM - node package manager - kind of replacement with CDN?
+* CDN - content delivery network - shared javascript
