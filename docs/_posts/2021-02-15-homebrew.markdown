@@ -13,12 +13,22 @@ mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar 
 2. Add the following to the environment variable - if using ZSH, add it to `~/.zshenv`
 ```
 export HOMEBREW_HOME=<YOUR_DESIRED_DIR>/homebrew
-export PATH=$PATH:$HOMEBREW_HOME/bin
+export PATH=$HOMEBREW_HOME/bin:$PATH
 ```
 3. do reload the environment variables, if using ZSH, run the following:
 ```
 source ~/.zshenv
 ```
 
+4. run `brew config` and check the following:
+```
+HOMEBREW_PREFIX: <YOUR_DESIRED_DIR>/homebrew
+HOMEBREW_CELLAR: <YOUR_DESIRED_DIR>/homebrew/Cellar
+```
+*these configs were automatically set  - i didn't do anything - maybe because of the installation i used? Others might find it in `/usr/local/`*
+* `prefix` - is where the symlink will be created, it add `/bin` automatically
+* `cellar` - is where the binaries will be located:
+
 ## Tools installed via homebrew
-1. GIT -> 
+1. GIT - i have git installed in `/usr/bin/` but because of SIP, i cannot update GIT to newest version. I let it but i also installed it via `homebrew`, i just make sure that `HOMEBREW_PREFIX/bin` comes first befor the `/usr/bin/` in the `PATH` so that it will take the `git` installed by homebrew
+
