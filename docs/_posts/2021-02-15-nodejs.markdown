@@ -9,7 +9,7 @@ categories: tools
 2. Put it on the desired directory
 3. Add the following to the environment variable - if using ZSH, add it to `~/.zshenv`
 ```
-export NODE_HOME=/Users/azelcorpuz/tools/node-v14.15.5-darwin-x64
+export NODE_HOME=<YOUR_DESIRED_DIR>/<NODE_JS_FOLDER_NAME>
 export PATH=$PATH:$NODE_HOME/bin/
 ```
 4. do reload the environment variables, if using ZSH, run the following:
@@ -32,3 +32,5 @@ export PATH=$PATH:$NODE_HOME/prefix
 * NodeJS - to be able to run javascript outside a browser
 * NPM - node package manager - kind of replacement with CDN?
 * CDN - content delivery network - shared javascript
+
+## Libraries installed via NPM

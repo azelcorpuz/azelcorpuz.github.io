@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Homebrew"
+date:   2021-02-15 23:53:00 +0800
+categories: tools
+---
+## Homebrew Installation
+1. Go to desired directory where to install homebrew
+1. I've used untar anywhere installation option, by running this, it downloads the homebrew tar and untar it to the target directory `homebrew`:
+```
+mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+```
+2. Add the following to the environment variable - if using ZSH, add it to `~/.zshenv`
+```
+export HOMEBREW_HOME=<YOUR_DESIRED_DIR>/homebrew
+export PATH=$PATH:$HOMEBREW_HOME/bin
+```
+3. do reload the environment variables, if using ZSH, run the following:
+```
+source ~/.zshenv
+```
+
+## Tools installed via homebrew
+1. GIT -> 
