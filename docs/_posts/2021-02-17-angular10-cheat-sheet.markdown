@@ -27,6 +27,16 @@ Template (template driven):
 * `Declarations` is to declare member components - to be able to use within the module (??)
 * `Import` is to be able to use member components of other module
 * `Export` is to export member components so that once module is imported by other module so the exported component can be use by other module   
+* `Provider` is to provide services or injectables to be injected to the components that needs it, works with 
+`@Injectable()` services
+
+### Services
+* `@Injectable()` - to mark the service as injectable - not really necessary but recommended, necessary for service that requires another service
+
+### Components
+* `@Input` -> to pass data from parent component to child component
+* `@Output` -> to pass data from child component to parent component, normally when an event happened on the child component, the output is normally an EventEmitter and the parent can listen to this event
+* `Template reference variable` -> to be able to access child component public method and variables. It is done by adding `#someName` on the child component and use by `someName.someChildMethod()` - only works in a template (html files)
 
 ## Bindings
 1. `[]` - Property binding - one-way from data source to view target
@@ -36,3 +46,11 @@ Template (template driven):
 3. `[()]` - Two way Binding - banana in a box
    * can use `bindon-` instead of `[()]`
 
+## Others
+* *Safe navigation* - `?` with properties - to avoid NPE (NullPointerException)
+* *Pipes* - data formatting directly to templates - built in pipes are available but can add customize one
+* *Content Projection* - to be able to keep a slot from a component that can be filled by the parent component
+
+**Dynamic Class:**
+* Class binding  - with expression (boolean)
+* NgClass expects an object (key is the class name and value is a boolean exp - can be multiple, can call a function
