@@ -86,7 +86,9 @@ At the end of the day, all these things have benefits - i'll focus more on devel
 
 ![](https://cdn.dribbble.com/users/1480650/screenshots/4739771/autodevops-dribbble-gif.gif)
 
-**Even though, to maintain this process successfully, you need to do your part as a developer - number one is *to write unit test*, *fix code smells*, *give your feedback with process* and *try to find a way to improve it* :)**
+**Even though, to maintain this process successfully, you need to do your part as a developer - number one is *to write unit test*, *fix code smells*, *give your feedback with process* and *try to find a way to improve it* :). One of my architect once asked me *"how will you convince developers to write unit test?"* - i guess this is my answer, people before put so much effort to make the developers' job easier, only thing for them is to maintain it**
+
+
 
 ## References
 * https://www.youtube.com/watch?v=mBBgRdlC4sc 
