@@ -14,12 +14,12 @@ categories: notes
 * **DevOps** is different for **Agile** but it blends each other
    * For your **Agile** to be successful you'll need **DevOps**, but to successfully achieve **DevOps** you might want to go for **Agile** methodolgy for your development
 
-[!image](https://algorithmia.com/blog/wp-content/uploads/2019/09/CI_CD_pipeline.gif)
+![](https://algorithmia.com/blog/wp-content/uploads/2019/09/CI_CD_pipeline.gif)
 
 ## Why DevOps?
 Without DevOps, this will be common scenario:
 
-[!image](https://www.metaltoad.com/sites/default/files/inline-images/22605665.jpg)
+![](https://www.metaltoad.com/sites/default/files/inline-images/22605665.jpg)
 
 Operations blaming the developers not able to deliver quality software and developers blaming operations with misconfigurations.
 
@@ -27,7 +27,7 @@ In the current world where also software are the center for different businesses
 
 The IT industry are in fast paced, most softwares are releasing every 2 weeks, hotfix within an hour, if your business cannot do this you will be out of the game before even releasing the next version or hotfix of your software :P
 
-[!image](https://pbs.twimg.com/profile_images/1200389077243064322/ulM9c1t8.jpg)
+![](https://pbs.twimg.com/profile_images/1200389077243064322/ulM9c1t8.jpg)
 
 Most companies are now investing a lot in their DevOps - and for them to be able to transform to DevOps, they need to create a **Software Factory**.
 
@@ -36,7 +36,7 @@ Most companies are now investing a lot in their DevOps - and for them to be able
 
 So, in short, **Software Factory** is defining how you want to deliver the software with the help of tooling and processes that makes the developers deliver faster without sacrificing the quality.
 
-[!image](https://i.imgur.com/REPnV1u.gif)
+![](https://i.imgur.com/REPnV1u.gif)
 
 **Software Factory** should include the following:
 * *tools* - IDE, code repository, application builder
@@ -50,7 +50,7 @@ Imagine a factory without any machines, a sewer without a sewing machine, a deli
 ## Continouos Integration
 Building a software is not just done by 1 person, it can be a team of 2 or more, this people need to be aware of each other changes and make sure its not breaking each others codes.
 
-[!image](https://thumbs.gfycat.com/IdioticInsignificantHapuku-max-1mb.gif)
+![](https://thumbs.gfycat.com/IdioticInsignificantHapuku-max-1mb.gif)
 
 **Continouos Integration** or simply **CI** is an automation that compiles, build, run test and package for every commit of your code. This happens with help of your *code repository* of automation tools like:
 
@@ -73,18 +73,18 @@ These are extension to your CI, if you want to take things further, then go for 
 
 **Continouos Delivery** or i call it **CDel** involves the packaging and versioning of your software, and it should just be one click away to production.
 
-[!image](https://miro.medium.com/max/1000/1*ifzvyLF6P-LhCmRE3zs8jQ@2x.gif)
+![](https://miro.medium.com/max/1000/1*ifzvyLF6P-LhCmRE3zs8jQ@2x.gif)
 
 While **Continouos Deployment** is one step further than **CDel** - this is removing the only manual step for your product to be in production - which is the `click`. Everything is automation - the only way you can stop your process if one your stage/job has failed.
 
-[!image](https://clm-consulting.com/wp-content/uploads/2018/02/ci-1.png)
+![](https://clm-consulting.com/wp-content/uploads/2018/02/ci-1.png)
 
 **If you achieve CI/CDel/CDep within your business, then you've got yourself a DevOps!**
 
 ## Conclusion
 At the end of the day, all these things have benefits - i'll focus more on developer (as i am one of them), wouldn't it be nice that all I have to do is commit my changes and let the process tell me that I break something?
 
-[!image](https://cdn.dribbble.com/users/1480650/screenshots/4739771/autodevops-dribbble-gif.gif)
+![](https://cdn.dribbble.com/users/1480650/screenshots/4739771/autodevops-dribbble-gif.gif)
 
 **Even though, to maintain this process successfully, you need to do your part as a developer - number one is *to write unit test*, *fix code smells*, *give your feedback with process* and *try to find a way to improve it* :)**
 
