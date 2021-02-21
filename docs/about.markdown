@@ -18,4 +18,6 @@ I know how to configure and use some tools like `Jenkins`, `Docker`, `Kubernetes
 
 I am not sure where to go - I like to be a `data scientist` with my little experience with big data but I also want to be a `solution architect` - maybe you'll be updated once i decided.
 
+Oh, lastly, i wear big round glasses too, but i am not a geek :P
+
 But for now, let me know how can i help your business! :)
