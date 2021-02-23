@@ -10,7 +10,7 @@ categories: notes
    * This includes **planning**, **implementation**, **build** and **test**
 * **Operations** is the team putting the delivered software into production, monitoring and making sure everything works fine
    * focusing on **deployment**, **operating** and **monitoring** 
-* **DevOps** goal is to integrate these 2 process resulting to faster delivery which can end up to customer satisfaction
+* **DevOps** goal is to integrate these 2 process resulting to faster delivery which can end up to customer satisfaction, but its not a one time integration, it's a cycle
 * **DevOps** is different for **Agile** but it blends each other
    * For your **Agile** to be successful you'll need **DevOps**, but to successfully achieve **DevOps** you might want to go for **Agile** methodolgy for your development
 
@@ -25,11 +25,11 @@ Operations blaming the developers not able to deliver quality software and devel
 
 In the current world where also software are the center for different businesses, a bug in production will not be able to wait and might result to great loss for the business.
 
-The IT industry are in fast paced, most softwares are releasing every 2 weeks, hotfix within an hour, if your business cannot do this you will be out of the game before even releasing the next version or hotfix of your software :P
+The IT industry are now fast paced, most softwares are releasing every 2 weeks, hotfix within an hour, if your business cannot do this you will be out of the game before even releasing the next version or hotfix of your software :P
 
 ![](https://pbs.twimg.com/profile_images/1200389077243064322/ulM9c1t8.jpg)
 
-Most companies are now investing a lot in their DevOps - and for them to be able to transform to DevOps, they need to create a **Software Factory**.
+Most companies are now investing a lot in their DevOps - and for them to be able to transform to DevOps, they need to design and implement a **Software Factory**.
 
 ## What is software factory?
 **Software** contains a set of logic coded into programs, procedures and routines - this is the product. Every product is manufactured, created or developed and this all happens in a **Factory**, in this you will need machines, a step by step process, quality controlled and packaging until you come up with a product that is ready to deliver. 
@@ -45,14 +45,14 @@ So, in short, **Software Factory** is defining how you want to deliver the softw
 * *packaging* - a product, to be able to be use, it needs to be package (you don't deliver a code, you need to deliver a software)
 * *deployment* - somehow like logistics - you need to move it and bring it to your customer -- in this case, production.
 
-Imagine a factory without any machines, a sewer without a sewing machine, a delivery guy without any vehicle - sounds slow right - to make it faster you need more people - and it will require more **$$$** which is opposite to the goal of **DevOps**. In Software Factory, these machines are equivalent to automations that are continouos, a cycle and this is where **Continouos Integration, Delivery and Deployment** will be needed.
+Imagine a factory without any machines, a sewer without a sewing machine, a delivery guy without any vehicle - sounds slow right - to make it faster you need more people - and it will require more **$$$** which is opposite to the goal of **DevOps**. In Software Factory, these machines are equivalent to automations that are continuous, a cycle and this is where **Continuous Integration, Delivery and Deployment** will be needed.
 
-## Continouos Integration
+## Continuous Integration
 Building a software is not just done by 1 person, it can be a team of 2 or more, this people need to be aware of each other changes and make sure its not breaking each others codes.
 
 ![](https://thumbs.gfycat.com/IdioticInsignificantHapuku-max-1mb.gif)
 
-**Continouos Integration** or simply **CI** is an automation that compiles, build, run test and package for every commit of your code. This happens with help of your *code repository* of automation tools like:
+**Continuous Integration** or simply **CI** is an automation that compiles, build, run test and package for every commit of your code. This happens with help of your *code repository* of automation tools like:
 
 1. **Jenkins** - a very powerful automation tool - you'll almost can automate everything with this
 2. **Gitlab CI** - a very good toold if you are using Gitlab as it is hight integrated with your repository
@@ -68,14 +68,14 @@ Building a software is not just done by 1 person, it can be a team of 2 or more,
 3. Implement your design
    * a machine can normally do one or more thing and you'll need to tell it what exactly you want it to do for you
 
-## Continouos Delivery and Deployment
-These are extension to your CI, if you want to take things further, then go for continouos delivery and deployment.
+## Continuous Delivery and Deployment
+These are extension to your CI, if you want to take things further, then go for continuous delivery and deployment.
 
-**Continouos Delivery** or i call it **CDel** involves the packaging and versioning of your software, and it should just be one click away to production.
+**Continuous Delivery** or i call it **CDel** involves the packaging and versioning of your software, and it should just be one click away to production.
 
 ![](https://miro.medium.com/max/1000/1*ifzvyLF6P-LhCmRE3zs8jQ@2x.gif)
 
-While **Continouos Deployment** is one step further than **CDel** - this is removing the only manual step for your product to be in production - which is the `click`. Everything is automation - the only way you can stop your process if one your stage/job has failed.
+While **Continuous Deployment** is one step further than **CDel** - this is removing the only manual step for your product to be in production - which is the `click`. Everything is automation - the only way you can stop your process if one your stage/job has failed.
 
 ![](https://clm-consulting.com/wp-content/uploads/2018/02/ci-1.png)
 
