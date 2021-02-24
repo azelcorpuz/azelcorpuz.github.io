@@ -27,6 +27,21 @@ categories: notes
    1. Run `my-runner`
    2. It is now ready to accept jobs
 
+Sample `.gitlab-ci`
+```
+# This file is a template, and might need editing before it works on your project.
+# Full project: https://gitlab.com/pages/plain-html
+stages:
+  - build
+  
+build_backend:
+  stage: build
+  script:
+    - echo "hello world"
+  only:
+    - master
+```
+
 ## Install Gitlab Runner on Windows that accepts bash commands
 
 
