@@ -12,7 +12,7 @@ categories: notes
 ## Install Gitlab Runner on Windows 
 1. Register your runner - run the commands below:
    ```
-   C:\your\path\gitlab-runner.exe register --config C:\your\path\my-runner\config.toml --non-interactive --url YOUR-GITLAB-URL --registration-token YOUR-REGISTRATION-TOKEN --description my-runner
+   C:\your\path\gitlab-runner.exe register --config C:\your\path\my-runner\config.toml --non-interactive --executor shell --url YOUR-GITLAB-URL --registration-token YOUR-REGISTRATION-TOKEN --description my-runner
    ```
    This will do the following:
    1. Generate a Runner Token
