@@ -54,7 +54,7 @@ Additional Prerequisites: `bash.exe` for windows - sometimes it is included with
    * your runners in `config.toml` shuold look like this:
 ```
 [[runners]]
-  name = "ut26vb-runner3"
+  name = "my-runner"
   url = "YOUR_GITLAB_URL"
   token = "YOUR_RUNNER_TOKEN"
   executor = "shell"
