@@ -5,6 +5,23 @@ date:   2021-02-15 23:14:00 +0800
 categories: tools
 ---
 
+## Concepts
+* **Data** - is a function and need to define the data to be use in the template. Should return an object
+```
+data: () =>  ({
+  info: null
+})
+```
+* **Method** - is an object with  functions and this is to define the methods to be used
+```
+  methods: {
+    login: function () {
+      this.$router.push('/home')
+    }
+  }
+```
+* **Mounted** - is a function that is called after the instance has been mounted.
+
 ## Multiple pages in Vue3
 I have an application with 2 types of pages:
 1. static pages - or the *"website"* which is purely html, javascript (for animation), css files - no communication with server/backend.

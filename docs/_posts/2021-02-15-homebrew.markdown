@@ -31,4 +31,6 @@ HOMEBREW_CELLAR: <YOUR_DESIRED_DIR>/homebrew/Cellar
 
 ## Tools installed via homebrew
 1. GIT - i have git installed in `/usr/bin/` but because of SIP, i cannot update GIT to newest version. I let it but i also installed it via `homebrew`, i just make sure that `HOMEBREW_PREFIX/bin` comes first befor the `/usr/bin/` in the `PATH` so that it will take the `git` installed by homebrew
+2. GO
+3. Ruby
 
