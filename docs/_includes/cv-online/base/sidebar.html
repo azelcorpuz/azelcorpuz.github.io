@@ -1,0 +1,163 @@
+{% assign sidebar = site.data.data.sidebar %}
+{% assign languages = site.data.data.sidebar.languages %}
+{% assign interests = site.data.data.sidebar.interests %}
+{% assign education = site.data.data.education %}
+<div class="sidebar-wrapper">
+
+  <!-- profile -->
+  <div class="profile-container">
+    <h1 class="name">{{ sidebar.name }}</h1>
+    <h3 class="tagline">{{ sidebar.tagline }}</h3> <br /> 
+    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+  </div>
+
+  <!-- contacts -->
+  <div class="contact-container container-block">
+    <ul class="list-unstyled contact-list">
+  
+      {% if sidebar.email %}
+      <li class="email"><i class="fas fa-envelope"></i>
+        <!-- {{ sidebar.email }} -->
+        <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
+      </li>
+      {% endif %}
+  
+      {% if sidebar.phone %}
+      <li class="phone"><i class="fas fa-phone"></i>
+        <!-- {{ sidebar.phone }} -->
+        <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
+      </li>
+      {% endif %}
+  
+      {% if sidebar.telegram %}
+      <li class="telegram"><i class="fab fa-telegram"></i>
+        <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">{{ sidebar.telegram }}</a>
+      </li>
+      {% endif %}
+  
+      {% if sidebar.website %}
+      <li class="website"><i class="fas fa-globe-americas"></i>
+        <!-- {{ sidebar.website }} -->
+        <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
+      </li>
+      {% endif %}
+  
+      {% if sidebar.linkedin %}
+      <li class="linkedin"><i class="fab fa-linkedin"></i>
+        <!-- {{ sidebar.linkedin }} -->
+        <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+      </li>
+      {% endif %}
+  
+      {% if sidebar.xing %}
+      <li class="xing"><i class="fab fa-xing"></i>
+        <a href="https://www.xing.com/profile/{{ sidebar.xing }}" target="_blank">{{ sidebar.xing }}</a>
+      </li>
+      {% endif %}
+  
+      {% if sidebar.github %}
+      <li class="github"><i class="fab fa-github"></i>
+        <!-- {{ sidebar.github }} -->
+        <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+      </li>
+      {% endif %}
+  
+      {% if sidebar.gitlab %}
+      <li class="gitlab"><i class="fab fa-gitlab"></i>
+        <!-- {{ sidebar.gitlab }} -->
+        <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
+      </li>
+      {% endif %}
+  
+      {% if sidebar.bitbucket %}
+      <li class="bitbucket"><i class="fab fa-bitbucket"></i>
+        <a href="http://bitbucket.com/{{ sidebar.bitbucket }}" target="_blank">{{ sidebar.bitbucket }}</a>
+      </li>
+      {% endif %}
+  
+      {% if sidebar.twitter %}
+      <li class="twitter"><i class="fab fa-twitter"></i>
+        <!-- {{ sidebar.twitter }} -->
+        <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank">{{ sidebar.twitter }}</a>
+      </li>
+      {% endif %}
+  
+      {% if sidebar.stack-overflow %}
+      <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
+        <!-- {{ sidebar.stack-overflow }}  -->
+        <a href="https://so-user.com/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow }}</a>
+      </li>
+      {% endif %}
+  
+      {% if sidebar.codewars %}
+      <li class="codewars"><i class="fas fa-code"></i>
+        <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">{{ sidebar.codewars }}</a>
+      </li>
+      {% endif %}
+  
+      {% if sidebar.goodreads %}
+      <li class="goodreads-g"><i class="fab fa-goodreads-g"></i>
+        <a href="https://www.goodreads.com/user/show/{{ sidebar.goodreads }}" target="_blank">{{ sidebar.goodreads }}</a>
+      </li>
+      {% endif %}
+
+      <!-- {% if sidebar.location %}
+      <li class="angle-down"><i class="fab fa-angle-down"></i>
+        {{ sidebar.location }}
+      </li>
+      {% endif %} -->
+  
+    </ul>
+  </div>
+
+  <!-- education -->
+  {% if education %}
+  <div class="education-container container-block">
+    <h2 class="container-block-title">
+      Education
+    </h2>
+    {% for graduation in education %}
+    <div class="item">
+      <h4 class="degree">{{ graduation.degree }}</h4>
+      <h5 class="meta">{{ graduation.university }}</h5>
+      <div class="time">{{ graduation.time }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <!-- languages -->
+  {% if languages %}
+  <div class="languages-container container-block">
+    <h2 class="container-block-title">
+      Languages
+    </h2>
+    <ul class="list-unstyled interests-list">
+      {%for language in languages %}
+      <li>
+        {{ language.idiom }}
+        <span class="lang-desc">({{ language.level }})</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  <!-- interests -->
+  {% if interests %}
+  <div class="interests-container container-block">
+    <h2 class="container-block-title">
+      Interests
+    </h2>
+    <ul class="list-unstyled interests-list">
+      {% for interest in interests %}
+        {% if interest.link %}
+        <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
+        {% else %}
+        <li>{{ interest.item }}</li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+</div><!--//sidebar-wrapper-->

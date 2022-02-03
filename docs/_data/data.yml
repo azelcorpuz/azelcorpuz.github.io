@@ -1,0 +1,135 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+sidebar:
+    # Profile information
+    name: Azel Corpuz
+    tagline: Developer
+    avatar: profile.jpeg 
+
+    # Sidebar links
+    email: "********@gmail.com"
+    phone: +65 ********
+    website: azelcorpuz.github.io #do not add http://
+    linkedin: azelcorpuz
+    #xing: alandoe
+    github: azelcorpuz
+    #telegram: # add your nickname without '@' sign
+    #gitlab:
+    #bitbucket:
+    # twitter: '@azelcorpuz'
+    stack-overflow: 8871447/azel # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
+    location: Singapore
+
+    languages:
+      - idiom: Filipino
+        level: Native
+      - idiom: English
+        level: Professional
+      - idiom: French
+        level: Beginner
+
+    interests:
+      - item: Watching movies
+        # link:
+      - item: Cycling
+      - item: Strolling
+      - item: Cooking
+education:
+    - degree: BSc in Computer Science
+      university: Cavite State University
+      time: 2009 - 2013
+
+career-profile:
+    title: Career Summary
+    summary: |
+      Last year, the first application that I designed myself (but of course, with the help of other people 
+      and my team) went to production on time and it is one of the greatest achievement 
+      I had and this is the kind of success I would like to have in the next few years of my career. 
+      <i>This is all because of the 8 years of experience that I had and its all worth it.</i>
+
+      <i>My strength is software development, and I love what I’m doing.</i> I like to try new technologies 
+      and analyse what and where is the problem and fix it. <i>Java</i> is my expertise but I’ve also 
+      gathered different technology skillset and you’ll find it below. The best non-Java I did is when 
+      I designed and implemented our <i>software factory</i> because once its done, delivering software 
+      is just a piece of cake and I appreciate it everyday.
+      
+      Lastly, <i>I am what I am now is also because of the people I’ve worked with.</i> I have worked with 
+      many different teams with different races in 2 different countries, I worked in France for few months 
+      and all of them contributed with all the knowledge I’ve gained. I like discussing with technical leads, 
+      architects and developers and honestly, that’s how I learned. 
+
+experiences:
+    - role: Technical Lead
+      time: Sep 2019 - Present
+      company: Credit Agricole Corporate and Investment Bank, Singapore
+      details: |
+        As a technical lead, it is my main responsibility to support my developers and business analysts in terms of technical aspects for us to be able to deliver a high quality software. I am involve all along the software development lifecycle, from requirements gathering up to putting the application to production. My roles are specifically the following:
+          - Analyse, propose and present solutions
+          - Implement some user and technical stories with unit testing including writing of Kubernetes manifest files
+          - Do code reviews
+          - Put software factory in place
+          - Write technical documentation'
+       
+        I am working currently with 3 projects: 2 of it is in <i>Java</i> and the other one is <i>Dotnet Core</i> application. 
+        2 of them are in Micro-service architecture implementing <i>gRPC and REST</i> for communication 
+        and the other is in 3 Tier architecture. All the applications are running in containers using 
+        <i>Docker orchestrated by Kubernetes<i/>. One of the project is focus on file management and so we also 
+        used <i>S3</i> for binary storage.
+    - role: Application Developer
+      time: Apr 2016 - Aug 2019
+      company: Optimum Solutions, Singapore
+      details: |
+        Within 3 years for this position, I worked mainly on 2 projects which is both in payment domain. 
+        The first project is using <i>Java, Spring Integration and HornetQ</i> with target architecture of Micro-services. 
+        The application is mainly for payment validation and reporting. 
+        
+        The second project is in Hadoop platform, with main technologies as <i>Spark batch and Spark streaming in 
+        Java, Kafka and Hbase</i>. I have also participated in some POC to choose the tools and technologies to be used.
+
+    - role: Software Engineer
+      time: Dec 2015 - Mar 2016
+      company: Misys, Makati City, Philippines
+      details: |
+        I have moved up to this position including the change of programming language, 
+        <i>from RPG to Java and AngularJs</i> and there was zero regret. I worked on a web application that is 
+        about personal financial management, my tasks were mostly on the frontend and a little on the backend. 
+        I have created ui components, do front end testing, implement client and server side controllers, services, 
+        and data access layer.
+    - role: Associate Software Engineer
+      time:  Jul 2013 - Nov 2015
+      company: Misys, Makati City, Philippines
+      details: |
+        At the start of my career, I have joined as a bootcamp trainee for 6 months and later joined the 
+        L3 Support team for retail lending module. The application we were supporting were running on 
+        <i>AS400 machines and the codes were written in RPGLE<i>. 
+        With this experience, I must say that it enhanced a lot of my analysis skills.
+
+# projects:
+#     title: Projects
+#     intro: >
+#       My projects
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+skills:
+    title: Technology Skillsets
+    toolset:
+      - name: Java
+        level: 95%
+      - name: Dotnet Core
+        level: 50%
+      - name: Go
+        level: 50%
+    others: |
+      Git • Maven • Gradle • Spring • gRPC • JUnit • Mockito • Jacoco • Cucumber • JMH • K6 • 
+      Apache Spark • Apache Storm • Apache Kafka • IBM MQ • Apache HBase • Cassandra • Elastic Search • 
+      Docker • Kubernetes • Argo • GitlabCI • Jenkins •  Angular • VueJs • OAuth2 
+
+      <br/><br/><i>I have experienced on all the tools listed but for those that need servers, I didn't set it up or maintained it.</i>
+footer: >
+    May 2021
