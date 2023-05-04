@@ -4,7 +4,7 @@
 sidebar:
     # Profile information
     name: Azel Corpuz
-    tagline: Developer
+    tagline: Aspiring Leader/Developer
     avatar: profile.jpeg 
 
     # Sidebar links
@@ -45,25 +45,33 @@ education:
 career-profile:
     title: Career Summary
     summary: |
-      Last year, the first application that I designed myself (but of course, with the help of other people 
-      and my team) went to production on time and it is one of the greatest achievement 
-      I had and this is the kind of success I would like to have in the next few years of my career. 
-      <i>This is all because of the 8 years of experience that I had and its all worth it.</i>
-
-      <i>My strength is software development, and I love what I’m doing.</i> I like to try new technologies 
-      and analyse what and where is the problem and fix it. <i>Java</i> is my expertise but I’ve also 
-      gathered different technology skillset and you’ll find it below. The best non-Java I did is when 
-      I designed and implemented our <i>software factory</i> because once its done, delivering software 
-      is just a piece of cake and I appreciate it everyday.
+      My area of expertise lies in software development, which is a passion I hold dear. 
+      I am constantly driven to explore new technologies and analyze issues, 
+      finding innovative solutions to any problems that arise. While Java is my forte, 
+      I have also acquired a diverse set of skills in various technologies.
       
-      Lastly, <i>I am what I am now is also because of the people I’ve worked with.</i> I have worked with 
-      many different teams with different races in 2 different countries, I worked in France for few months 
-      and all of them contributed with all the knowledge I’ve gained. I like discussing with technical leads, 
-      architects and developers and honestly, that’s how I learned. 
+      Throughout my career, I have had the opportunity to work on a variety of projects, 
+      including L3 support, feature enhancements, and greenfield initiatives. 
+      My contributions extend beyond software development, encompassing requirements gathering, 
+      analysis, and process improvement. I am not satisfied with merely "good enough," 
+      and always strive for perfection in every aspect of our work. My achievements continues 
+      to bring me great satisfaction and serves as a testament to my commitment to excellence in my field.
+      As I look forward to future opportunities, I am eager to take on new and exciting projects that allow me 
+      to demonstrate my expertise and make meaningful contributions to the organization.
 
 experiences:
+    - role: Software Developer
+      time: Oct 2021 - Present
+      company: Apple, Singapore
+      details: |
+        As a self-sufficient team of four, we are currently spearheading a greenfield 
+        project involving the development of a web and iOS application. Our team is 
+        responsible for the entire project lifecycle, from development to production. 
+        I took initiative on requirement analysis, UI design, and both front-end (web) 
+        and back-end development. The back-end is built on Java, while the web application 
+        is built on Angular. Notably, our application is 100% cloud-native and deployed on AWS.
     - role: Technical Lead
-      time: Sep 2019 - Present
+      time: Sep 2019 - October 2021
       company: Credit Agricole Corporate and Investment Bank, Singapore
       details: |
         As a technical lead, it is my main responsibility to support my developers and business analysts in terms of technical aspects for us to be able to deliver a high quality software. I am involve all along the software development lifecycle, from requirements gathering up to putting the application to production. My roles are specifically the following:
@@ -121,15 +129,17 @@ skills:
     toolset:
       - name: Java
         level: 95%
+      - name: Go
+        level: 70%
       - name: Dotnet Core
         level: 50%
-      - name: Go
-        level: 50%
+      - name: AWS
+        level: 35%
     others: |
       Git • Maven • Gradle • Spring • gRPC • JUnit • Mockito • Jacoco • Cucumber • JMH • K6 • 
       Apache Spark • Apache Storm • Apache Kafka • IBM MQ • Apache HBase • Cassandra • Elastic Search • 
       Docker • Kubernetes • Argo • GitlabCI • Jenkins •  Angular • VueJs • OAuth2 
 
-      <br/><br/><i>I have experienced on all the tools listed but for those that need servers, I didn't set it up or maintained it.</i>
+      <br/><br/><i>I had a hands-on experienced on all the tools listed above.</i>
 footer: >
-    May 2021
+    May 2023
