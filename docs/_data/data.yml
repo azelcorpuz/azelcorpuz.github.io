@@ -4,7 +4,7 @@
 sidebar:
     # Profile information
     name: Azel Corpuz
-    tagline: Aspiring Leader/Developer
+    tagline: Developer/Aspiring Leader
     avatar: profile.jpeg 
 
     # Sidebar links
@@ -33,7 +33,6 @@ sidebar:
 
     interests:
       - item: Watching movies
-        # link:
       - item: Cycling
       - item: Strolling
       - item: Cooking
@@ -45,17 +44,16 @@ education:
 career-profile:
     title: Career Summary
     summary: |
-      My area of expertise lies in software development, which is a passion I hold dear. 
-      I am constantly driven to explore new technologies and analyze issues, 
-      finding innovative solutions to any problems that arise. While Java is my forte, 
-      I have also acquired a diverse set of skills in various technologies.
+      My area of expertise lies in software development, which is a passion I hold. 
+      I am constantly driven to explore new technologies, analyze issues and 
+      finding innovative solutions. While Java is my forte, I have also acquired a diverse 
+      set of skills in various technologies from web development, microservices up to big data.
       
-      Throughout my career, I have had the opportunity to work on a variety of projects, 
-      including L3 support, feature enhancements, and greenfield initiatives. 
-      My contributions extend beyond software development, encompassing requirements gathering, 
-      analysis, and process improvement. I am not satisfied with merely "good enough," 
-      and always strive for perfection in every aspect of our work. My achievements continues 
-      to bring me great satisfaction and serves as a testament to my commitment to excellence in my field.
+      Throughout my career, I had the opportunity to work on a different projects, 
+      including greenfield initiatives, feature enhancements, and L3 support. 
+      My participation extend beyond software development, encompassing requirements gathering, 
+      analysis and process improvement. I always strive for perfection in every aspect of my work and my achievements continue 
+      to bring me great satisfaction and serve as a testament to my commitment in my field.
       As I look forward to future opportunities, I am eager to take on new and exciting projects that allow me 
       to demonstrate my expertise and make meaningful contributions to the organization.
 
@@ -64,8 +62,8 @@ experiences:
       time: Oct 2021 - Present
       company: Apple, Singapore
       details: |
-        As a self-sufficient team of four, we are currently spearheading a greenfield 
-        project involving the development of a web and iOS application. Our team is 
+        As a team of four, we are currently working on a greenfield 
+        project involving web and iOS application. Our team is 
         responsible for the entire project lifecycle, from development to production. 
         I took initiative on requirement analysis, UI design, and both front-end (web) 
         and back-end development. The back-end is built on Java, while the web application 
@@ -74,35 +72,35 @@ experiences:
       time: Sep 2019 - October 2021
       company: Credit Agricole Corporate and Investment Bank, Singapore
       details: |
-        As a technical lead, it is my main responsibility to support my developers and business analysts in terms of technical aspects for us to be able to deliver a high quality software. I am involve all along the software development lifecycle, from requirements gathering up to putting the application to production. My roles are specifically the following:
+        As a technical lead, it is my main responsibility to support my developers and business analysts in terms of technical aspects for us to be able to deliver a high quality software. I am involve all along the software development lifecycle and my roles are specifically the following:
           - Analyse, propose and present solutions
           - Implement some user and technical stories with unit testing including writing of Kubernetes manifest files
           - Do code reviews
           - Put software factory in place
-          - Write technical documentation'
+          - Write technical documentation
        
-        I am working currently with 3 projects: 2 of it is in <i>Java</i> and the other one is <i>Dotnet Core</i> application. 
-        2 of them are in Micro-service architecture implementing <i>gRPC and REST</i> for communication 
+        I am working currently with 3 projects: 2 of it is in Java and the other one is a Dotnet Core application. 
+        2 of them are in Micro-service architecture implementing gRPC and REST for communication 
         and the other is in 3 Tier architecture. All the applications are running in containers using 
-        <i>Docker orchestrated by Kubernetes<i/>. One of the project is focus on file management and so we also 
-        used <i>S3</i> for binary storage.
+        Docker orchestrated by Kubernetes. One of the project is focus on file management and so we also 
+        used S3 for object storage.
     - role: Application Developer
       time: Apr 2016 - Aug 2019
       company: Optimum Solutions, Singapore
       details: |
         Within 3 years for this position, I worked mainly on 2 projects which is both in payment domain. 
-        The first project is using <i>Java, Spring Integration and HornetQ</i> with target architecture of Micro-services. 
+        The first project is using Java, Spring Integration and HornetQ with target architecture of Micro-services. 
         The application is mainly for payment validation and reporting. 
         
-        The second project is in Hadoop platform, with main technologies as <i>Spark batch and Spark streaming in 
-        Java, Kafka and Hbase</i>. I have also participated in some POC to choose the tools and technologies to be used.
+        The second project is in Hadoop platform, with main technologies as Spark batch and Spark streaming in 
+        Java, Kafka and Hbase. I have also participated in some POC to choose the tools and technologies to be used.
 
     - role: Software Engineer
       time: Dec 2015 - Mar 2016
       company: Misys, Makati City, Philippines
       details: |
         I have moved up to this position including the change of programming language, 
-        <i>from RPG to Java and AngularJs</i> and there was zero regret. I worked on a web application that is 
+        from RPG to Java and AngularJ and there was zero regret. I worked on a web application that is 
         about personal financial management, my tasks were mostly on the frontend and a little on the backend. 
         I have created ui components, do front end testing, implement client and server side controllers, services, 
         and data access layer.
@@ -112,7 +110,7 @@ experiences:
       details: |
         At the start of my career, I have joined as a bootcamp trainee for 6 months and later joined the 
         L3 Support team for retail lending module. The application we were supporting were running on 
-        <i>AS400 machines and the codes were written in RPGLE<i>. 
+        AS400 machines and the codes were written in RPGLE. 
         With this experience, I must say that it enhanced a lot of my analysis skills.
 
 # projects:
@@ -140,6 +138,5 @@ skills:
       Apache Spark • Apache Storm • Apache Kafka • IBM MQ • Apache HBase • Cassandra • Elastic Search • 
       Docker • Kubernetes • Argo • GitlabCI • Jenkins •  Angular • VueJs • OAuth2 
 
-      <br/><br/><i>I had a hands-on experienced on all the tools listed above.</i>
 footer: >
     May 2023
